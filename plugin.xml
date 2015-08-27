@@ -24,7 +24,7 @@
                 <param name="android-package" value="com.irdev.cordova.simplevideoplayer.SimpleVideoPlayer"/>
             </feature>
         </config-file>
-		
+		 <source-file src="videoku.mp4" target-dir="res/raw" />
         <source-file src="src/android/SimpleVideoPlayer.java" target-dir="src/com/irdev/cordova/simplevideoplayer" />
 		<source-file src="src/android/SimpleVideoPlayerActivity.java" target-dir="src/com/irdev/cordova/simplevideoplayer" />
 		
