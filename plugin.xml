@@ -33,7 +33,7 @@
         </config-file>
 		
 		<config-file target="AndroidManifest.xml" parent="/*/application">
-            <activity android:name="com.irdev.cordova.simplevideoplayer.SimpleVideoPlayerActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:configChanges="keyboardHidden|orientation|screenSize" />
+            <activity android:name="com.irdev.cordova.simplevideoplayer.SimpleVideoPlayerActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:configChanges="keyboardHidden|orientation|screenSize" android:screenOrientation="landscape" />
         </config-file>
 		
     </platform>
